@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WeatherApiServiceApplication {
 
     public static void main(String[] args) {
+        System.out.println("test fork");
         SpringApplication.run(WeatherApiServiceApplication.class, args);
     }
 
